@@ -1,0 +1,2 @@
+# waymore.world
+Webpage template
