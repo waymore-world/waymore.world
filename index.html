@@ -35,7 +35,6 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-124192191-1');
 </script>
 
@@ -643,9 +642,9 @@
                 <h3 class="h6">Send Us A Message</h3>
 
                 <!-- action="https://world.us19.list-manage.com/subscribe/post?u=9495bc860b78b5cf3b0a067ad&amp;id=13de693e8b"-->
-                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
-                        <fieldset>
-        
+                <form name="contactForm" id="contactForm" method="post" action="inc/sendEmail.php" novalidate="novalidate">
+                    
+                    <fieldset>        
                         <div class="form-field">
                             <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
                         </div>
@@ -659,7 +658,7 @@
                             <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
                         </div>
                         <div class="form-field">
-                            <button class="full-width btn--primary">Submit</button>
+                            <button type="submit" class="full-width btn--primary">Submit</button>
                             <div class="submit-loader">
                                 <div class="text-loader">Sending...</div>
                                 <div class="s-loader">
@@ -668,10 +667,9 @@
                                     <div class="bounce3"></div>
                                 </div>
                             </div>
-                        </div>
-        
-                        </fieldset>
-                    </form>
+                        </div>        
+                    </fieldset>
+                </form>
 
                 <!-- contact-warning -->
                 <div class="message-warning">

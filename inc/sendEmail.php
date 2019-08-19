@@ -25,7 +25,6 @@ if($_POST) {
     // Subject
     if ($subject == '') { $subject = "Contact Form Submission"; }
 
-
     // Set Message
     $message .= "Email from: " . $name . "<br />";
     $message .= "Email address: " . $email . "<br />";
