@@ -1,2 +1,4 @@
 # waymore.world
-Webpage template
+Webpage template 
+
+## [https:waymore.world](https:waymore.world)
